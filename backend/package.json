@@ -1,0 +1,30 @@
+{
+  "name": "crud-example-app-backend",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Manuel Vila <hi@mvila.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./build && babel ./src --out-dir ./build",
+    "deploy": "npm run build && simple-deployment",
+    "start": "nodemon --watch ./src --exec babel-node ./src/http-server.js"
+  },
+  "dependencies": {
+    "@liaison/aws-integration": "^0.5.7",
+    "@liaison/component": "^0.5.4",
+    "@liaison/component-server": "^0.5.5",
+    "@liaison/mongodb-store": "^0.5.3",
+    "@liaison/storable": "^0.5.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-decorators": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@liaison/component-http-server": "^0.5.5",
+    "nodemon": "^2.0.4",
+    "simple-deployment": "^0.1.31"
+  }
+}
