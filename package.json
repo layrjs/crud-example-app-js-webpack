@@ -12,6 +12,7 @@
   "prettier": "@mvila/prettierrc",
   "devDependencies": {
     "@mvila/prettierrc": "^1.0.0",
+    "concurrently": "^5.2.0",
     "prettier": "^2.0.5"
   }
 }
