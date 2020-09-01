@@ -19,7 +19,7 @@ if (!backendURL) {
       window.Frontend = Frontend; // For debugging
     }
 
-    content = <Frontend.Root.Main />;
+    content = <Frontend.Main />;
   } catch (err) {
     console.error(err);
 
