@@ -1,5 +1,5 @@
-import {Component, expose, validators} from '@liaison/component';
-import {Storable, primaryIdentifier, attribute} from '@liaison/storable';
+import {Component, expose, validators} from '@layr/component';
+import {Storable, primaryIdentifier, attribute} from '@layr/storable';
 
 const {notEmpty} = validators;
 

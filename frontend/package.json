@@ -10,11 +10,11 @@
     "start": "webpack-dev-server --mode=development"
   },
   "dependencies": {
-    "@liaison/component": "^1.0.0",
-    "@liaison/component-http-client": "^1.0.0",
-    "@liaison/react-integration": "^1.0.0",
-    "@liaison/routable": "^1.0.0",
-    "@liaison/storable": "^1.0.0",
+    "@layr/component": "^1.0.0",
+    "@layr/component-http-client": "^1.0.0",
+    "@layr/react-integration": "^1.0.0",
+    "@layr/routable": "^1.0.0",
+    "@layr/storable": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

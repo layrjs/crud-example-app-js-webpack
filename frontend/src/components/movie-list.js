@@ -1,7 +1,7 @@
-import {Component, attribute, consume} from '@liaison/component';
-import {Routable, route} from '@liaison/routable';
+import {Component, attribute, consume} from '@layr/component';
+import {Routable, route} from '@layr/routable';
 import React from 'react';
-import {view, useAsyncMemo} from '@liaison/react-integration';
+import {view, useAsyncMemo} from '@layr/react-integration';
 
 export class MovieList extends Routable(Component) {
   @consume() static Movie;

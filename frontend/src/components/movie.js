@@ -1,7 +1,7 @@
-import {consume} from '@liaison/component';
-import {Routable, route} from '@liaison/routable';
+import {consume} from '@layr/component';
+import {Routable, route} from '@layr/routable';
 import React, {useMemo} from 'react';
-import {view, useAsyncMemo, useAsyncCallback} from '@liaison/react-integration';
+import {view, useAsyncMemo, useAsyncCallback} from '@layr/react-integration';
 
 export function Movie(Base) {
   class Movie extends Routable(Base) {

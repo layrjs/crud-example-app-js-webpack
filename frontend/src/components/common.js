@@ -1,6 +1,6 @@
-import {Component} from '@liaison/component';
+import {Component} from '@layr/component';
 import React from 'react';
-import {view, useDelay} from '@liaison/react-integration';
+import {view, useDelay} from '@layr/react-integration';
 
 export class Common extends Component {
   @view() static LoadingMessage() {

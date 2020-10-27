@@ -49,7 +49,7 @@ module.exports = (env, argv) => {
       new CleanWebpackPlugin(),
       new HtmlWebPackPlugin({
         template: './src/index.html',
-        favicon: './src/assets/liaison-favicon-20191111.immutable.png',
+        favicon: './src/assets/layr-favicon-20201027.immutable.png',
         inject: false
       }),
       new webpack.EnvironmentPlugin(['BACKEND_URL'])
