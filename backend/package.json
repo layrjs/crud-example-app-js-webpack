@@ -10,21 +10,21 @@
     "start": "nodemon --watch ./src --exec babel-node ./src/http-server.js"
   },
   "dependencies": {
-    "@layr/aws-integration": "^1.0.0",
-    "@layr/component": "^1.0.0",
-    "@layr/component-server": "^1.0.0",
-    "@layr/mongodb-store": "^1.0.0",
-    "@layr/storable": "^1.0.0"
+    "@layr/aws-integration": "^1.0.20",
+    "@layr/component": "^1.0.20",
+    "@layr/component-server": "^1.0.18",
+    "@layr/mongodb-store": "^1.1.14",
+    "@layr/storable": "^1.1.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.11.5",
     "@babel/core": "^7.11.5",
     "@babel/node": "^7.10.5",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "@babel/plugin-proposal-decorators": "^7.12.12",
     "@babel/preset-env": "^7.11.5",
-    "@layr/component-http-server": "^1.0.0",
+    "@layr/component-http-server": "^1.0.18",
     "nodemon": "^2.0.4",
-    "simple-deployment": "^0.1.32"
+    "simple-deployment": "^0.1.46"
   }
 }
